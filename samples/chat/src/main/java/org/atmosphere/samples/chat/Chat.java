@@ -64,6 +64,7 @@ public class Chat {
     public void onReady(final AtmosphereResource r) {
         logger.info("Browser {} connected", r.uuid());
         logger.info("BroadcasterFactory used {}", factory.getClass().getName());
+        logger.info("session.foo: "+r.getRequest().getSession().getAttribute("foo"));
     }
 
     /**
