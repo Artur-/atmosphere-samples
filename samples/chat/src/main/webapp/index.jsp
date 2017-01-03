@@ -19,6 +19,10 @@
     </style>
 </head>
 <body>
+<%
+session.setAttribute("foo","bar");
+%>
+
     <div id="header"><h3>Atmosphere Chat. Default transport is WebSocket, fallback is long-polling</h3></div>
     <div id="content"></div>
     <div>
