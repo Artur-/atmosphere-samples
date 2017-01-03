@@ -77,7 +77,7 @@ public class Chat {
         logger.info("Browser {} connected", r.uuid());
         logger.info("BroadcasterFactory used {}", factory.getClass().getName());
         logger.info("Broadcaster injected {}", broadcaster.getID());
-
+        logger.info("session.foo: "+r.getRequest().getSession().getAttribute("foo"));
     }
 
     /**
