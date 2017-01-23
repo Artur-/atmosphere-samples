@@ -13,9 +13,10 @@
     <!--<logger name="org.atmosphere.cpr.AtmosphereResourceImpl" level="DEBUG"/>-->
     <!--<logger name="org.atmosphere.cpr.AsyncSupportListenerAdapter" level="INFO"/>-->
 
+    <logger name="org.atmosphere" level="DEBUG"/>
 
     <root>
-        <level value="INFO"/>
+        <level value="DEBUG"/>
         <appender-ref ref="STDOUT"/>
     </root>
 
